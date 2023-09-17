@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.site1{
+    width: 1578px;
+    height: 752px;
+    border: 3px solid red;
+    margin:50px auto;
+    
+}
+.navbar{
+   width: 100%;
+   height: 100px;
+   border-bottom: 3px solid red;
+   background-color: black;
+}
+.navbar ul{
+    list-style: none;
+     height: 100px;
+     float: right;
+     padding-right: 200px;
+}
+.navbar ul li{
+    float: left;
+    line-height: 100px;
+}
+.navbar ul li a{
+    display: block;
+    text-decoration: none;
+    color: red;
+    margin-left: 70px;
+    font-size: 25px;
+    transition: all 1s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar ul li a:hover{
+    color:  yellow;
+    text-shadow: 0 0 5px black;
+}
+.down{
+    background-color: black;
+    width: 100%;
+    height: 652px;
+    position: relative;
+}
+.navbar h1{
+    font-size: 32px;
+    color: red;
+    float: left;
+    line-height: 100px;
+    margin-left: 100px;
+    text-transform: capitalize;
+    font-family: cursive;
+    transition: all 1.5s;
+}
+.navbar h1:hover{
+    font-size: 32px;
+    font-family: cursive;
+    color:  yellow;
+}
+.iphone{
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    transition: all 1.5s;
+}
+.samsung{
+    width: 500px;
+    position: absolute;
+    top: 115px;
+    left: 330px;
+    transition: all 1.5s;
+}
+.redmi{
+    width: 350px;
+    position: absolute;
+    top: 105px;
+    left: 800px;
+    transition: all 1.5s;
+}
+.watch{
+    width: 200px;
+    top: 180px;
+    position: absolute;
+    left: 1250px;
+    transition: all 1.5s;
+}
+.iphone__h1{
+    color: red;
+    position: absolute;
+    top: 480px;
+    left: 170px;
+    transition: all 1.5s;
+}
+.iphone__h2{
+    color: red;
+   top: 450px;
+   left: 120px;
+    position: absolute;
+    transition: all 1.5s;
+}
+.samsung__h1{
+    color: red;
+    position: absolute;
+    top: 480px;
+    left: 550px;
+    transition: all 1.5s;
+}
+.samsung__h2{
+    color: red;
+   top: 450px;
+   left: 470px;
+    position: absolute;
+    transition: all 1.5s;
+}
+.redmi__h1{
+    color: red;
+    position: absolute;
+    top: 480px;
+    left: 935px;
+    transition: all 1.5s;
+}
+.redmi__h2{
+    color: red;
+   top: 450px;
+   left: 870px;
+    position: absolute;
+    transition: all 1.5s;
+   
+}
+.watch__h1{
+    color: red;
+    position: absolute;
+    top: 480px;
+    left: 1300px;
+    transition: all 1.5s;
+}
+.watch__h2{
+    color: red;
+   top: 450px;
+   left: 1250px;
+    position: absolute;
+    transition: all 1.5s;
+   
+}
+.iphone:hover{
+    transform: rotate(5deg) scale(1.1);
+}
+.samsung:hover{
+    transform: rotate(5deg) scale(1.1);
+}.redmi:hover{
+    transform: rotate(5deg) scale(1.1);
+}.watch:hover{
+    transform: rotate(5deg) scale(1.1);
+}
+.iphone__h1:hover{
+    color: yellow;
+}
+.iphone__h2:hover{
+    color: yellow;
+}
+.samsung__h1:hover{
+    color: yellow;
+}
+.samsung__h2:hover{
+    color: yellow;
+}
+.redmi__h1:hover{
+    color: yellow;
+}
+.redmi__h2:hover{
+    color: yellow;
+}
+.watch__h1:hover{
+    color: yellow;
+}
+.watch__h2:hover{
+    color: yellow;
+}
+.down__button1{
+    width: 200px;
+    height: 50px;
+    border: 2px solid red;
+    outline: none;
+    position: absolute;
+  background-color: black;
+  color: yellow;
+  border-radius: 3px;
+  top: 570px;
+  left: 1260px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 1s;
+}
+.down__button1:hover{
+    background-color: black;
+    border: 2px solid yellow;
+    color: red;
+    outline: none;
+}
+.a1{
+    display: block;
+    font-size: 300px;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+}
+.a2{
+    display: block;
+    font-size: 300px;
+    top: 100px;
+    left: 600px;
+    position: absolute;
+}
+.a3{
+    display: block;
+    font-size: 300px;
+    top: 70px;
+    left: 1150px;
+    position: absolute;
+}
